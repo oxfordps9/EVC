@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Excellence Visa Consultancy &amp; Global Education | Kazi Ahmed, Sindh</title>
+<meta name="description" content="The Excellence Visa Consultancy & Global Education, based at Altaf Excellence School, Kazi Ahmed, guides Sindh students to universities and scholarships in the USA, UK, and Europe.">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='24' r='22' fill='%230A2540' stroke='%23f59e0b' stroke-width='2'/%3E%3Cpath d='M24 13L9 19.5L24 26L39 19.5L24 13Z' fill='%23f59e0b'/%3E%3Cpath d='M15 22.3V29C15 29 18.2 33 24 33C29.8 33 33 29 33 29V22.3' stroke='%23f59e0b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-50 flex flex-col min-h-screen text-gray-800">
+
+<!-- ==================== HEADER ==================== -->
+<header class="bg-[#0A2540] text-white sticky top-0 z-50 shadow-md border-b-4 border-amber-500">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 sm:h-24 flex items-center justify-between gap-2">
+    <a href="index.html" class="flex items-center gap-2 sm:gap-3 shrink-0 min-w-0">
+      <svg class="h-9 w-9 sm:h-12 sm:w-12 shrink-0" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" fill="#0A2540" stroke="#f59e0b" stroke-width="2"/>
+        <path d="M24 13L9 19.5L24 26L39 19.5L24 13Z" fill="#f59e0b"/>
+        <path d="M15 22.3V29C15 29 18.2 33 24 33C29.8 33 33 29 33 29V22.3" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M39 19.5V27" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="39" cy="28.6" r="1.5" fill="#f59e0b"/>
+      </svg>
+      <span class="flex flex-col leading-tight min-w-0">
+        <span class="text-base sm:text-2xl font-black tracking-tight text-white font-display whitespace-nowrap">THE EXCELLENCE</span>
+        <span class="text-[9px] sm:text-xs text-amber-400 font-bold tracking-widest uppercase whitespace-nowrap">Visa Consultancy &amp; Global Education</span>
+      </span>
+    </a>
+    <nav class="hidden md:flex space-x-8 font-semibold text-sm uppercase tracking-wider">
+      <a href="index.html" class="nav-link current">Home</a>
+      <a href="about.html" class="nav-link hover:text-amber-400 transition">About Us</a>
+      <a href="services.html" class="nav-link hover:text-amber-400 transition">Pathways &amp; Scholarships</a>
+      <a href="gallery.html" class="nav-link hover:text-amber-400 transition">Gallery</a>
+      <a href="testimonials.html" class="nav-link hover:text-amber-400 transition">Success Stories</a>
+      <a href="contact.html" class="nav-link hover:text-amber-400 transition">Contact Us</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="https://wa.me/923009244928" target="_blank" class="hidden sm:flex bg-emerald-600 hover:bg-emerald-700 text-white px-3 py-2 lg:px-5 lg:py-2.5 rounded-lg text-xs lg:text-sm font-bold shadow-md transition items-center gap-2 whitespace-nowrap">
+        <span>Direct WhatsApp Hotline</span>
+      </a>
+      <button onclick="toggleMobileMenu()" class="md:hidden text-white p-2" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg id="menuIconOpen" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="menuIconClose" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobileMenu" class="md:hidden bg-[#0A2540] border-t border-white/10">
+    <div class="px-6 py-4 flex flex-col gap-4 font-semibold text-sm uppercase tracking-wider">
+      <a href="index.html" class="text-amber-400">Home</a>
+      <a href="about.html" class="hover:text-amber-400">About Us</a>
+      <a href="services.html" class="hover:text-amber-400">Pathways &amp; Scholarships</a>
+      <a href="gallery.html" class="hover:text-amber-400">Gallery</a>
+      <a href="testimonials.html" class="hover:text-amber-400">Success Stories</a>
+      <a href="contact.html" class="hover:text-amber-400">Contact Us</a>
+      <a href="https://wa.me/923009244928" target="_blank" class="bg-emerald-600 text-white px-4 py-3 rounded-lg text-center">WhatsApp Hotline</a>
+    </div>
+  </div>
+</header>
+
+<main class="flex-grow">
+
+  <!-- ==================== HERO ==================== -->
+  <div class="bg-gradient-to-br from-[#0A2540] via-[#12365a] to-slate-900 text-white py-12 sm:py-20 lg:py-24 px-4 border-b border-gray-800 overflow-hidden">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-12 items-center">
+      <div class="lg:col-span-7 space-y-5 sm:space-y-6 text-center lg:text-left">
+        <span class="inline-block bg-amber-500 text-slate-950 text-xs px-3 py-1.5 rounded-md font-black uppercase tracking-widest">Premium Overseas Admissions Office</span>
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight sm:leading-none font-display">Your Pathway From Sindh to World-Class Universities</h1>
+        <p class="text-base sm:text-lg text-gray-300 max-w-xl mx-auto lg:mx-0">The Excellence Visa Consultancy &amp; Global Education, housed at Altaf Excellence School, bridges local students to elite learning ecosystems across the USA, United Kingdom, and the European Schengen Area — from your first counselling session to the day you board your flight.</p>
+
+        <!-- Mobile hero image sits inline with the text on small screens -->
+        <div class="lg:hidden relative max-w-md mx-auto pt-2">
+          <img src="https://images.unsplash.com/photo-1581656702382-9ae90e68e7b7?auto=format&fit=crop&w=900&q=80" alt="Prestigious university campus historic brick architecture" class="rounded-2xl shadow-2xl border-4 border-white/10 w-full object-cover h-56 sm:h-72">
+          <div class="absolute -bottom-4 -left-2 sm:-left-4 bg-amber-500 text-slate-950 px-3 py-2 sm:p-4 rounded-xl shadow-lg font-bold text-xs sm:text-sm">
+            ⭐ 98% Document Approval Rate
+          </div>
+        </div>
+
+        <div class="pt-6 sm:pt-4 flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4">
+          <a href="contact.html" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-black px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl shadow-xl transition transform hover:-translate-y-0.5 text-sm sm:text-base">Apply For Profile Assessment</a>
+          <a href="services.html" class="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-bold px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl transition text-sm sm:text-base">Explore Fully Funded Programs</a>
+        </div>
+        <div class="flex flex-wrap justify-center lg:justify-start gap-6 pt-6 text-sm">
+          <div><span class="text-amber-400 font-black text-2xl stat-num" data-count="500" data-suffix="+">0</span><p class="text-gray-400">Students Guided</p></div>
+          <div><span class="text-amber-400 font-black text-2xl stat-num" data-count="40" data-suffix="+">0</span><p class="text-gray-400">Partner Universities</p></div>
+          <div><span class="text-amber-400 font-black text-2xl stat-num" data-count="98" data-suffix="%">0</span><p class="text-gray-400">Document Approval Rate</p></div>
+        </div>
+      </div>
+      <div class="hidden lg:block lg:col-span-5 relative">
+        <img src="https://images.unsplash.com/photo-1581656702382-9ae90e68e7b7?auto=format&fit=crop&w=900&q=80" alt="Prestigious university campus historic brick architecture" class="rounded-2xl shadow-2xl border-4 border-white/10 w-full object-cover h-96">
+        <div class="absolute -bottom-6 -left-6 bg-amber-500 text-slate-950 p-4 rounded-xl shadow-lg font-bold text-sm">
+          ⭐ 98% Document Approval Rate
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== DESTINATIONS ==================== -->
+  <div class="max-w-7xl mx-auto px-4 py-20 space-y-16">
+    <div class="text-center max-w-3xl mx-auto space-y-4 reveal">
+      <h2 class="text-4xl font-extrabold text-[#0A2540] font-display">Primary Processing Destinations</h2>
+      <p class="text-gray-600">Explore highly vetted premium institutions paired with comprehensive localized scholarship options.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-sm border border-slate-200/60 overflow-hidden flex flex-col justify-between lift reveal group">
+        <div>
+          <div class="overflow-hidden h-48"><img src="https://images.unsplash.com/photo-1659388346953-1824e45d363d?auto=format&fit=crop&w=800&q=80" alt="US premium university campus building" class="w-full h-48 object-cover img-zoom"></div>
+          <div class="p-6 space-y-4">
+            <h3 class="text-2xl font-bold text-[#0A2540] font-display">United States (USA)</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Direct placement architectures across ivy-league structures, high-tier state flags, and teaching research facilities.</p>
+            <div class="space-y-1 text-xs font-semibold text-slate-700">
+              <p class="text-amber-600 font-bold">⭐ Featured Funding Options:</p>
+              <p>• Fulbright Graduate Fellowships</p>
+              <p>• Institutional Merit Tuition Waivers</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 bg-slate-50 border-t border-slate-100">
+          <a href="services.html#usa" class="text-sm font-bold text-[#0A2540] hover:text-amber-600 transition">Review Target Campuses &rarr;</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-sm border border-slate-200/60 overflow-hidden flex flex-col justify-between lift reveal group">
+        <div>
+          <div class="overflow-hidden h-48"><img src="https://images.unsplash.com/photo-1472121779802-43c68a9f405f?auto=format&fit=crop&w=800&q=80" alt="UK historic campus gothic building" class="w-full h-48 object-cover img-zoom"></div>
+          <div class="p-6 space-y-4">
+            <h3 class="text-2xl font-bold text-[#0A2540] font-display">United Kingdom (UK)</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Direct pipeline access for fast-track unconditional offer placements and CAS verification cycles.</p>
+            <div class="space-y-1 text-xs font-semibold text-slate-700">
+              <p class="text-amber-600 font-bold">⭐ Featured Funding Options:</p>
+              <p>• Chevening Scholarships (Fully Funded)</p>
+              <p>• Commonwealth Master's Programs</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 bg-slate-50 border-t border-slate-100">
+          <a href="services.html#uk" class="text-sm font-bold text-[#0A2540] hover:text-amber-600 transition">Review Target Campuses &rarr;</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-sm border border-slate-200/60 overflow-hidden flex flex-col justify-between lift reveal group">
+        <div>
+          <div class="overflow-hidden h-48"><img src="https://images.unsplash.com/photo-1592280771190-3e2e4d571952?auto=format&fit=crop&w=800&q=80" alt="Modern European public campus plaza" class="w-full h-48 object-cover img-zoom"></div>
+          <div class="p-6 space-y-4">
+            <h3 class="text-2xl font-bold text-[#0A2540] font-display">Schengen Area / Europe</h3>
+            <p class="text-gray-600 text-sm leading-relaxed">Tuition-free paths within world-leading state systems specializing in engineering, tech, and medicine.</p>
+            <div class="space-y-1 text-xs font-semibold text-slate-700">
+              <p class="text-amber-600 font-bold">⭐ Featured Funding Options:</p>
+              <p>• DAAD Germany Comprehensive Stipends</p>
+              <p>• Erasmus Mundus Joint Master Degrees</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6 bg-slate-50 border-t border-slate-100">
+          <a href="services.html#europe" class="text-sm font-bold text-[#0A2540] hover:text-amber-600 transition">Review Target Campuses &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== WHY CHOOSE US ==================== -->
+  <div class="bg-slate-100 border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 py-20 space-y-14">
+      <div class="text-center max-w-3xl mx-auto space-y-4 reveal">
+        <h2 class="text-4xl font-extrabold text-[#0A2540] font-display">Why Families Across Sindh Trust Us</h2>
+        <p class="text-gray-600">A full-service admissions desk under one roof — from your first counselling call to your pre-departure briefing.</p>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm lift reveal">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-2xl mb-4">🧭</div>
+          <h3 class="font-bold text-[#0A2540] text-lg mb-2">Personalised Profile Counselling</h3>
+          <p class="text-sm text-gray-600">One-on-one evaluation of your academic record, test scores, and budget to shortlist realistic, ambitious targets.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm lift reveal">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-2xl mb-4">📝</div>
+          <h3 class="font-bold text-[#0A2540] text-lg mb-2">SOP &amp; Document Review</h3>
+          <p class="text-sm text-gray-600">Statement of Purpose drafting, recommendation letter guidance, and transcript verification handled in-house.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm lift reveal">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-2xl mb-4">🎓</div>
+          <h3 class="font-bold text-[#0A2540] text-lg mb-2">Scholarship &amp; Funding Matching</h3>
+          <p class="text-sm text-gray-600">We map every applicant against Fulbright, Chevening, DAAD, Erasmus Mundus, and university-specific waivers.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm lift reveal">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-2xl mb-4">🗣️</div>
+          <h3 class="font-bold text-[#0A2540] text-lg mb-2">IELTS / PTE Test Preparation</h3>
+          <p class="text-sm text-gray-600">Structured practice batches and mock tests at the Altaf Excellence School campus in Kazi Ahmed.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm lift reveal">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-2xl mb-4">🛂</div>
+          <h3 class="font-bold text-[#0A2540] text-lg mb-2">Visa Filing &amp; Interview Prep</h3>
+          <p class="text-sm text-gray-600">Complete visa documentation review, mock interviews, and appointment scheduling support.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm lift reveal">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 flex items-center justify-center text-2xl mb-4">✈️</div>
+          <h3 class="font-bold text-[#0A2540] text-lg mb-2">Pre-Departure &amp; Settlement</h3>
+          <p class="text-sm text-gray-600">Briefings on accommodation, banking, and campus life so you land prepared, not overwhelmed.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== PROCESS ==================== -->
+  <div class="max-w-7xl mx-auto px-4 py-20 space-y-14">
+    <div class="text-center max-w-3xl mx-auto space-y-4 reveal">
+      <h2 class="text-4xl font-extrabold text-[#0A2540] font-display">Your Six-Step Journey With Us</h2>
+      <p class="text-gray-600">A clear, sequenced pathway from your first visit to our office to your first day on campus abroad.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="relative pl-6 border-l-4 border-amber-500 reveal">
+        <span class="absolute -left-[18px] top-0 bg-[#0A2540] text-amber-400 w-8 h-8 rounded-full flex items-center justify-center text-xs font-black">01</span>
+        <h3 class="font-bold text-[#0A2540] mb-2">Free Profile Assessment</h3>
+        <p class="text-sm text-gray-600">Share your academic history and goals; we evaluate eligibility across USA, UK, and Europe within 48 hours.</p>
+      </div>
+      <div class="relative pl-6 border-l-4 border-amber-500 reveal">
+        <span class="absolute -left-[18px] top-0 bg-[#0A2540] text-amber-400 w-8 h-8 rounded-full flex items-center justify-center text-xs font-black">02</span>
+        <h3 class="font-bold text-[#0A2540] mb-2">University Shortlisting</h3>
+        <p class="text-sm text-gray-600">A curated list balancing ambition, budget, and admission probability across our partner network.</p>
+      </div>
+      <div class="relative pl-6 border-l-4 border-amber-500 reveal">
+        <span class="absolute -left-[18px] top-0 bg-[#0A2540] text-amber-400 w-8 h-8 rounded-full flex items-center justify-center text-xs font-black">03</span>
+        <h3 class="font-bold text-[#0A2540] mb-2">Application &amp; SOP Filing</h3>
+        <p class="text-sm text-gray-600">Complete document packaging, essay refinement, and portal submissions handled by our desk.</p>
+      </div>
+      <div class="relative pl-6 border-l-4 border-amber-500 reveal">
+        <span class="absolute -left-[18px] top-0 bg-[#0A2540] text-amber-400 w-8 h-8 rounded-full flex items-center justify-center text-xs font-black">04</span>
+        <h3 class="font-bold text-[#0A2540] mb-2">Scholarship &amp; Funding Push</h3>
+        <p class="text-sm text-gray-600">Parallel applications to fully-funded and merit-based scholarship schemes matched to your profile.</p>
+      </div>
+      <div class="relative pl-6 border-l-4 border-amber-500 reveal">
+        <span class="absolute -left-[18px] top-0 bg-[#0A2540] text-amber-400 w-8 h-8 rounded-full flex items-center justify-center text-xs font-black">05</span>
+        <h3 class="font-bold text-[#0A2540] mb-2">Visa Interview &amp; Filing</h3>
+        <p class="text-sm text-gray-600">Mock interviews, financial documentation checks, and embassy appointment coordination.</p>
+      </div>
+      <div class="relative pl-6 border-l-4 border-amber-500 reveal">
+        <span class="absolute -left-[18px] top-0 bg-[#0A2540] text-amber-400 w-8 h-8 rounded-full flex items-center justify-center text-xs font-black">06</span>
+        <h3 class="font-bold text-[#0A2540] mb-2">Pre-Departure Briefing</h3>
+        <p class="text-sm text-gray-600">Housing, travel, and settling-in guidance so your first weeks abroad go smoothly.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TESTIMONIALS PREVIEW ==================== -->
+  <div class="bg-[#0A2540] text-white">
+    <div class="max-w-7xl mx-auto px-4 py-20 space-y-12">
+      <div class="text-center max-w-2xl mx-auto space-y-4 reveal">
+        <h2 class="text-4xl font-extrabold font-display">Voices From Our Applicants</h2>
+        <p class="text-gray-300">A glimpse of the families and students we've guided toward offer letters and visas.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-6 reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="avatar-circle w-11 h-11 rounded-full bg-amber-500 text-slate-950">A.R.</div>
+            <div><p class="font-bold text-sm">A. Rehman</p><p class="text-xs text-gray-400">MS, University of Texas at Austin</p></div>
+          </div>
+          <p class="text-sm text-gray-300 leading-relaxed">The document review process caught gaps I never noticed. My visa was approved on the first attempt.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-6 reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="avatar-circle w-11 h-11 rounded-full bg-amber-500 text-slate-950">S.K.</div>
+            <div><p class="font-bold text-sm">S. Khaskheli</p><p class="text-xs text-gray-400">Chevening Scholar, University of Manchester</p></div>
+          </div>
+          <p class="text-sm text-gray-300 leading-relaxed">I didn't think a fully funded UK scholarship was possible from Kazi Ahmed. Their SOP guidance made all the difference.</p>
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-2xl p-6 reveal">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="avatar-circle w-11 h-11 rounded-full bg-amber-500 text-slate-950">M.J.</div>
+            <div><p class="font-bold text-sm">M. Junejo</p><p class="text-xs text-gray-400">DAAD Stipend, TU Munich</p></div>
+          </div>
+          <p class="text-sm text-gray-300 leading-relaxed">The IELTS batches at the school campus got my band score up within two months. Forever grateful.</p>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="testimonials.html" class="inline-block bg-amber-500 hover:bg-amber-600 text-slate-950 font-black px-8 py-4 rounded-xl shadow-xl transition">Read More Success Stories &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== GALLERY PREVIEW ==================== -->
+  <div class="max-w-7xl mx-auto px-4 py-20 space-y-10">
+    <div class="flex flex-wrap items-end justify-between gap-4 reveal">
+      <div>
+        <h2 class="text-4xl font-extrabold text-[#0A2540] font-display">Campus Life, In Pictures</h2>
+        <p class="text-gray-600 mt-2">A preview from our full gallery of partner campuses and student milestones.</p>
+      </div>
+      <a href="gallery.html" class="text-sm font-bold text-[#0A2540] hover:text-amber-600 transition whitespace-nowrap">View Full Gallery &rarr;</a>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="https://images.unsplash.com/photo-1622397333309-3056849bc70b?auto=format&fit=crop&w=500&q=80" alt="USA campus" class="rounded-xl h-40 md:h-56 w-full object-cover lift reveal">
+      <img src="https://images.unsplash.com/photo-1642612460433-a5d935c08d73?auto=format&fit=crop&w=500&q=80" alt="UK campus lawn" class="rounded-xl h-40 md:h-56 w-full object-cover lift reveal">
+      <img src="https://images.unsplash.com/photo-1583373834259-46cc92173cb7?auto=format&fit=crop&w=500&q=80" alt="European campus building" class="rounded-xl h-40 md:h-56 w-full object-cover lift reveal">
+      <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=500&q=80" alt="Graduation celebration" class="rounded-xl h-40 md:h-56 w-full object-cover lift reveal">
+    </div>
+  </div>
+
+  <!-- ==================== CTA BANNER ==================== -->
+  <div class="bg-gradient-to-r from-amber-500 to-amber-400 text-slate-950">
+    <div class="max-w-7xl mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+      <div>
+        <h2 class="text-3xl font-black font-display">Ready to Start Your Global Education Journey?</h2>
+        <p class="text-slate-800 mt-1">Book a free profile assessment with our counselling desk in Kazi Ahmed, Sindh.</p>
+      </div>
+      <a href="contact.html" class="bg-[#0A2540] hover:bg-slate-800 text-white font-black px-8 py-4 rounded-xl shadow-xl transition whitespace-nowrap">Book Free Assessment</a>
+    </div>
+  </div>
+
+</main>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="bg-slate-900 text-slate-400 text-sm mt-auto border-t-8 border-slate-950">
+  <div class="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-4 gap-12">
+    <div class="space-y-4 md:col-span-2">
+      <h4 class="text-white font-black tracking-widest uppercase text-xs">Altaf Excellence School &amp; Consultancy</h4>
+      <p class="text-xs leading-relaxed text-slate-400">An authoritative, direct gateway connecting Sindh applicants to verified international institutional registries and competitive full funding paths across the USA, UK, and Europe.</p>
+    </div>
+    <div class="space-y-3">
+      <h4 class="text-white font-black tracking-widest uppercase text-xs">Site Map</h4>
+      <div class="grid grid-cols-1 gap-2 text-xs">
+        <a href="index.html" class="hover:text-amber-400 transition">Home</a>
+        <a href="about.html" class="hover:text-amber-400 transition">About Us</a>
+        <a href="services.html" class="hover:text-amber-400 transition">Pathways &amp; Scholarships</a>
+        <a href="gallery.html" class="hover:text-amber-400 transition">Gallery</a>
+        <a href="testimonials.html" class="hover:text-amber-400 transition">Success Stories</a>
+        <a href="contact.html" class="hover:text-amber-400 transition">Contact</a>
+      </div>
+    </div>
+    <div class="space-y-3 text-xs">
+      <h4 class="text-white font-black tracking-widest uppercase text-xs">Verified Contact Matrix</h4>
+      <p class="text-slate-300">📍 Altaf Excellence School Campus, Kazi Ahmed, Sindh, Pakistan</p>
+      <p>💬 WhatsApp: <a href="https://wa.me/923009244928" class="text-amber-400 font-bold hover:underline">+92 300 9244928</a></p>
+      <p>📧 Email: <a href="mailto:info@altafexcellence.com" class="text-amber-400 font-bold hover:underline">info@altafexcellence.com</a></p>
+    </div>
+  </div>
+  <div class="bg-slate-950 py-6 text-center text-xs text-slate-600 border-t border-slate-900/60">
+    &copy; 2026 Altaf Excellence School &amp; International Consultancy Services. All Global Rights Reserved.
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
